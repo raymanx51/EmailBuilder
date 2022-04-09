@@ -33,12 +33,15 @@ function App() {
     <div className="App">
         {showHome === true && 
           <div>
-            <p>New Design</p>
+            <p>New Design:</p>
             <button onClick={newDesign}>Create New</button>
-            
+            <br/>
+            <br/>
+            <br/>
+            <br/>
 
-            <p>Load Design</p>
-            <input type="file" id="uploadSave" onChange={saveFile}></input>
+            <p>Load Design:</p>
+            <input type="file" id="uploadSave" onChange={saveFile} accept="application/JSON"></input>
           </div>
         }
         {(showHome === false && createDesign === true) && 

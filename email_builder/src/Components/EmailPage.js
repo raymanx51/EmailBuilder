@@ -65,7 +65,7 @@ const Emailer = (props) => {
       </div>
       <div>
         <button onClick={exportHtml}>Export HTML</button>
-        <button onClick={exportDesign}>Save Design</button>
+        <button onClick={exportDesign}>Save Design For Later</button>
         <br/>
       </div>
 
